@@ -1,10 +1,10 @@
 def backwardslist(array):
     new_array = array[::-1]
     print(new_array)
-backwardslist([1,2,3,4,5,6,7,8,9])
+
 '''
 def min(array):
-    """ Returns the lowest number in an list of numbers"""
+     Returns the lowest number in an list of numbers
 
 def firsthalfsum(array):
     """Returns the sum of the first half of the list.
