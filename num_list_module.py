@@ -10,6 +10,12 @@ def minimun(array):
 
 def firsthalfsum(array):
     if len(array)%2 == 0:
+        mid= len(array)//2
+    first_half = array[:mid]
+
+
+
+
 
 
 
