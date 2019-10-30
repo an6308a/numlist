@@ -1,24 +1,27 @@
+
 def backwardslist(array):
     new_array = array[::-1]
     print(new_array)
 
-'''
-def min(array):
-     Returns the lowest number in an list of numbers
+
+def minimun(array):
+    print(min(array))
+
 
 def firsthalfsum(array):
-    """Returns the sum of the first half of the list.
-        ***IF THE LIST HAS AN ODD NUMBER OF ELEMENTS, split the middle element in
-        half and add it to the sum.
-        """
+    if len(array)%2 == 0:
 
+
+
+
+'''
 def divisibleby(array, divisor):
     """ Returns each element divisible by the paramater 'divisor'
 
     """
 
 def max(array):
-    """ Returns the highest number in a list of numbers """
+    print(max(array))
 
 def avg(array):
     """ Returns the average of a list of numbers"""
