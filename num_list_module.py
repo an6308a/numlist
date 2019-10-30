@@ -1,4 +1,4 @@
-
+'''
 def backwardslist(array):
     new_array = array[::-1]
     print(new_array)
@@ -6,12 +6,23 @@ def backwardslist(array):
 
 def minimun(array):
     print(min(array))
-
+'''
 
 def firsthalfsum(array):
-    if len(array)%2 == 0:
+    if len(array) % 2 == 0:
         mid= len(array)//2
-    first_half = array[:mid]
+        first_half = array[:mid+1]
+        first_half_sum = sum(first_half)
+        print("This array is even so the sum is: ",first_half_sum)
+    else:
+        mid = len(array) // 2
+        still_half = array[:mid + 1]
+        still_half_sum = sum(still_half)
+        print("This sum is odd so the sum is: ",still_half_sum)
+
+firsthalfsum([1,3,5,6,3,9,10])
+
+
 
 
 
